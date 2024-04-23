@@ -76,7 +76,7 @@ export default function MoveClassComponent({
                 <option value="move-studio-1">MOVE Pilates Studio</option>
               </select>
 
-              <StandardButton text="Book Now" />
+              <StandardButton text="Book Now" classLink="/timetable" />
             </div>
           </Col>
           <Col sm={7} className="">
