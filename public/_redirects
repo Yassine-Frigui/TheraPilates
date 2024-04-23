@@ -1,1 +1,15 @@
-/*    /index.html    200
+# Redirects from what the browser requests to what we serve
+/home                /
+# Redirect from /classes to the classes page
+/classes             /classes
+# Redirect from /packages to the packages page
+/packages            /packages
+# Redirect from /timetable to the timetable page
+/timetable           /timetable
+# Redirect from /locate-us to the locate us page
+/locate-us           /locate-us
+# Redirect from /contact-us to the contact us page
+/contact-us          /contact-us
+
+# Catch-all redirect for single-page applications
+/*                   /index.html    200
