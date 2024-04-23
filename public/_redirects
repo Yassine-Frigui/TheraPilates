@@ -6,10 +6,10 @@
 /packages            /packages
 # Redirect from /timetable to the timetable page
 /timetable           /timetable
-# Redirect from /locate-us to the locate us page
-/locate-us           /locate-us
-# Redirect from /contact-us to the contact us page
-/contact-us          /contact-us
+# Redirect from /location to the locate us page
+/location         /location
+# Redirect from /contact to the contact us page
+/contact         /contact
 
 # Catch-all redirect for single-page applications
 /*                   /index.html    200
