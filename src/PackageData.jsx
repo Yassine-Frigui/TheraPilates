@@ -1,0 +1,48 @@
+const packageData = [
+  {
+    category: "intro",
+    categoryTitle: "INTRO PACK - NEW CLIENTS",
+    packageTitle: "Starter Pack: 3 Classes",
+    packagePrice: "RM 180",
+    paymentSched: "One time payment",
+    credits: "3 credits for classes",
+    access: "All location access",
+    validity: "Valid for 1 month from the date of first booking",
+    paymentLink: "/checkout-intro",
+  },
+  {
+    category: "class",
+    categoryTitle: "CLASS PACK",
+    packageTitle: "Drop-in: One Class",
+    packagePrice: "RM 85",
+    paymentSched: "One time payment",
+    credits: "1 credit for classes",
+    access: "All location access",
+    validity: "Valid for 1 month from the date of first booking",
+    paymentLink: "/checkout-dropin",
+  },
+  {
+    category: "class",
+    categoryTitle: "CLASS PACK",
+    packageTitle: "4 Classes",
+    packagePrice: "RM 310",
+    paymentSched: "One time payment",
+    credits: "4 credits for classes",
+    access: "All location access",
+    validity: "Valid for 1 month from the date of first booking",
+    paymentLink: "/checkout-fourclasses",
+  },
+  {
+    category: "share",
+    categoryTitle: "SHAREABLE FOR 2",
+    packageTitle: "25 Classes",
+    packagePrice: "RM 1,750",
+    paymentSched: "One time payment",
+    credits: "25 credits for classes",
+    access: "All location access",
+    validity: "Valid for 6 months from the date of first booking",
+    paymentLink: "/checkout-25classes",
+  },
+];
+
+export default packageData;

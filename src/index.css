@@ -1,0 +1,79 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+:root{
+    --primary-color: #808376;
+    --secondary-color: #f4e9df;
+    --font-color: #ffffff;
+}
+
+/* Homepage Location Row overlap effect */
+.overlap {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-radius: 30px;
+  pointer-events: none; 
+}
+
+.location:hover .overlap {
+  opacity: 1; /* Make the div visible on hover */
+  pointer-events: auto;
+}
+
+/* Packages Page Navigation Tabs styling */
+.custom-tabs .nav-link.active {
+    text-decoration: "none";
+    border-top: 0px; 
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid var(--primary-color) !important; /* Add underline for active tabs */
+    color: var(--primary-color) !important;
+    font-weight: 500;
+    background-color: transparent !important; /* Remove background color for active tabs */
+  }
+  
+.custom-tabs .nav-link {
+    color: var(--primary-color) !important;
+    font-weight: 200;
+    background-color: transparent !important; /* Remove background color for inactive tabs */
+  }
+
+/* TimetableDateCard styling */
+.dateCard{
+  border-radius: 20px;
+  border: solid 1px;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  background-color: none;
+  width: 6rem;
+  height: 7rem;
+  text-align: center;               
+}
+
+.dateCard:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.nav-link:hover {
+    border: none !important; 
+  }
+
+.nav-link:focus {
+  border: none !important; 
+}
+
+/* Payment page payment method radio button styling */
+input[type="radio"]:checked + label::before {
+  background-color: var(--primary-color); /
+}
+
+  
