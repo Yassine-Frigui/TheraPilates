@@ -6,8 +6,8 @@ import { BiCalendar } from "react-icons/bi";
 import { CiStar } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import packageData from "../PackageData";
-import VisaImage from "../assets/294654_visa_icon.png";
-import MastercardImage from "../assets/380809_card_master_mastercard_icon.png";
+import VisaImage from "/assets/294654_visa_icon.png";
+import MastercardImage from "/assets/380809_card_master_mastercard_icon.png";
 import CreditCardForm from "./CheckoutFormComponent";
 
 export default function CheckoutPage({ packageTitle, packageConditions, classesEligibility }) {

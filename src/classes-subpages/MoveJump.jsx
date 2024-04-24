@@ -6,7 +6,7 @@ export default function MoveJump() {
       className="Move Jump"
       classDuration="50 mins"
       classDifficulty="Intermediate"
-      classImage="../assets/bruce-mars-gJtDg6WfMlQ-unsplash.jpg"
+      classImage="/assets/logan-weaver-lgnwvr-amgv9YUg-MA-unsplash.jpg"
       classDescription={
         <p>
           Dive into high-energy fitness with our Pilates Jumpboard class! MOVE

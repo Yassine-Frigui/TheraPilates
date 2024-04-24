@@ -79,12 +79,14 @@ export default function MoveClassComponent({
               <StandardButton text="Book Now" classLink="/timetable" />
             </div>
           </Col>
-          <Col sm={7} className="">
+          
+          <Col sm={7}>
             <img
               src={classImage}
-              width="60%"
-              style={{ borderRadius: "20px", marginLeft: "auto" }}
-            ></img>
+              width="50%"
+              height="auto"
+              style={{ borderRadius: "15px", marginLeft: "auto",  objectFit: "cover" }}
+            />
           </Col>
         </Row>
         <Row

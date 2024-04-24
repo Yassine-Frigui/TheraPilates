@@ -6,7 +6,7 @@ import { CiDumbbell } from "react-icons/ci";
 import { IoPeopleSharp } from "react-icons/io5";
 import { TbStairsUp } from "react-icons/tb";
 import StandardButton from "../components/StandardButton";
-import ReformerImage from "../assets/freya-yanggg-yang-JmjDBhXSjyI-unsplash.jpg";
+import ReformerImage from "/assets/freya-yanggg-yang-JmjDBhXSjyI-unsplash.jpg";
 
 export default function LocationStudioOne() {
   const handleDirection = () => {

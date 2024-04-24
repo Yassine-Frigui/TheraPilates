@@ -1,5 +1,5 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
-import BrandLogo from "../assets/letter-m.png";
+import BrandLogo from "/assets/letter-m.png";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 

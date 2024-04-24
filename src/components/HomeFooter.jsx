@@ -1,5 +1,5 @@
 import { FaInstagram } from "react-icons/fa";
-import BrandLogo from "../assets/letter-m.png";
+import BrandLogo from "/assets/letter-m.png";
 import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 

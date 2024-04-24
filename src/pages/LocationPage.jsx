@@ -1,5 +1,5 @@
 import { Container, Col, Row, Card } from "react-bootstrap";
-import ImageLounge from "../assets/alona-gross-ppDb3WLVd_M-unsplash.jpg";
+import ImageLounge from "/assets/alona-gross-ppDb3WLVd_M-unsplash.jpg";
 import StandardButton from "../components/StandardButton";
 import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
