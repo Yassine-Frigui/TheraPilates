@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { useState } from "react";
 import ClassesCard from "../components/ClassesCard";
-import Image1 from "/assets/bruce-mars-gJtDg6WfMlQ-unsplash.jpg";
-import Image2 from "/assets/bruce-mars-pFyKRmDiWEA-unsplash.jpg";
+import Image1 from "/assets/img_5.jpg";
+import Image2 from "/assets/img_6.jpg";
 import Image3 from "/assets/logan-weaver-lgnwvr-amgv9YUg-MA-unsplash.jpg";
 import Image4 from "/assets/andrew-valdivia-0-A_G_XeUqc-unsplash.jpg";
 

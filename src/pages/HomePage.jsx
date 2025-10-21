@@ -1,14 +1,14 @@
 import { Row, Col, Container, Card } from "react-bootstrap";
 import StandardButton from "../components/StandardButton";
 import OutlineButton from "../components/OutlineButton";
-import Background1 from "/assets/the-blowup-_7wfhH3HHg0-unsplash.jpg";
-import Background2 from "/assets/sandra-filipe-ahtFAYSPza0-unsplash.jpg";
-import LobbyImg from "/assets/frames-for-your-heart-zSG-kd-L6vw-unsplash.jpg";
+import Background1 from "/assets/img_1.jpg";
+import Background2 from "/assets/img_2.jpg";
+import LobbyImg from "/assets/img_3.jpg";
 import Image3 from "/assets/levi-t-61V7052F7A4-unsplash.jpg";
 import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import ImageLounge from "/assets/alona-gross-ppDb3WLVd_M-unsplash.jpg";
+import ImageLounge from "/assets/img_4.jpg";
 import { useTranslation } from "react-i18next";
 
 export default function HomePage() {
