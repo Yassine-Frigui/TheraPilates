@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "classes": "Cours",
+    "packages": "Forfaits",
+    "contact": "Contact",
+    "location": "Localisation",
+    "policies": "Politiques",
+    "timetable": "Horaire"
+  },
+  "home": {
+    "hero": {
+      "title": "Thérapie par le Mouvement",
+      "subtitle": "Physiothérapie & Pilates Thérapeutique",
+      "description": "Découvrez une approche holistique de la santé et du bien-être à travers nos séances de physiothérapie et de pilates thérapeutique personnalisées.",
+      "cta": "Réserver une Séance"
+    },
+    "services": {
+      "title": "Nos Services",
+      "physiotherapy": {
+        "title": "Physiothérapie",
+        "description": "Évaluation et traitement personnalisés pour soulager la douleur et améliorer la mobilité."
+      },
+      "pilates": {
+        "title": "Pilates Thérapeutique",
+        "description": "Exercices ciblés pour renforcer les muscles profonds et améliorer la posture."
+      },
+      "rehabilitation": {
+        "title": "Rééducation",
+        "description": "Programmes spécialisés pour la récupération après blessure ou chirurgie."
+      }
+    },
+    "about": {
+      "title": "À Propos de TheraPilates",
+      "description": "Notre studio spécialisé en physiothérapie et pilates thérapeutique offre des soins personnalisés dans un environnement accueillant et professionnel."
+    },
+    "cta": {
+      "title": "Prêt à Commencer Votre Voyage Vers le Bien-être ?",
+      "button": "Voir Nos Forfaits"
+    }
+  },
+  "classes": {
+    "title": "Nos Cours",
+    "subtitle": "Découvrez nos différentes séances de physiothérapie et pilates thérapeutique",
+    "filter": {
+      "all": "Tous",
+      "physiotherapy": "Physiothérapie",
+      "pilates": "Pilates",
+      "rehabilitation": "Rééducation"
+    },
+    "bookNow": "Réserver Maintenant"
+  },
+  "packages": {
+    "title": "Nos Forfaits",
+    "subtitle": "Choisissez le forfait qui convient le mieux à vos besoins",
+    "packages": {
+      "intro": {
+        "title": "Séance d'Introduction",
+        "price": "TND 35",
+        "sessions": "1 séance",
+        "description": "Découvrez nos méthodes avec une séance d'introduction personnalisée."
+      },
+      "fourClasses": {
+        "title": "4 Classes",
+        "price": "TND 120",
+        "sessions": "4 séances",
+        "description": "Idéal pour commencer votre programme de rééducation."
+      },
+      "twentyFiveClasses": {
+        "title": "25 Classes",
+        "price": "TND 650",
+        "sessions": "25 séances",
+        "description": "Forfait complet pour un suivi thérapeutique régulier."
+      },
+      "dropIn": {
+        "title": "Drop-in",
+        "price": "TND 35",
+        "sessions": "Séance individuelle",
+        "description": "Paiement à la séance pour une flexibilité maximale."
+      }
+    },
+    "checkout": "Commander"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes là pour répondre à vos questions",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "send": "Envoyer"
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "address": "123 Avenue Habib Bourguiba, Tunis, Tunisie",
+      "phone": "+216 71 123 456",
+      "email": "hello@therapilates.co",
+      "hours": "Lundi - Vendredi: 8h-20h\nSamedi - Dimanche: 9h-18h"
+    }
+  },
+  "location": {
+    "title": "Notre Localisation",
+    "subtitle": "Venez nous rendre visite dans notre studio à Tunis",
+    "studio": {
+      "title": "Studio TheraPilates",
+      "address": "123 Avenue Habib Bourguiba, Tunis, Tunisie",
+      "description": "Situé au cœur de Tunis, notre studio moderne offre un environnement calme et professionnel pour vos séances de physiothérapie et pilates thérapeutique."
+    }
+  },
+  "timetable": {
+    "title": "Horaire des Cours",
+    "subtitle": "Consultez notre planning hebdomadaire",
+    "filter": {
+      "all": "Tous les cours",
+      "physiotherapy": "Physiothérapie",
+      "pilates": "Pilates",
+      "rehabilitation": "Rééducation"
+    },
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche"
+    },
+    "book": "Réserver"
+  },
+  "footer": {
+    "description": "Votre partenaire en physiothérapie et pilates thérapeutique à Tunis.",
+    "links": {
+      "services": "Services",
+      "contact": "Contact",
+      "policies": "Politiques",
+      "location": "Localisation"
+    },
+    "copyright": "© 2025 TheraPilates. Tous droits réservés."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "success": "Opération réussie",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "view": "Voir",
+    "details": "Détails",
+    "actions": "Actions"
+  }
+}

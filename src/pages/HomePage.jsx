@@ -9,8 +9,11 @@ import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import ImageLounge from "/assets/alona-gross-ppDb3WLVd_M-unsplash.jpg";
+import { useTranslation } from "react-i18next";
 
 export default function HomePage() {
+  const { t } = useTranslation();
+
   return (
     <>
       <Container fluid>
@@ -28,14 +31,13 @@ export default function HomePage() {
               className="d-flex flex-column align-items-start col-6 mb-4 ml-2"
               style={{ marginTop: "30%", marginLeft: "5%" }}
             >
-              <h1>MOVE Pilates</h1>
+              <h1>TheraPilates</h1>
               <p>
-                We are a come-as-you-are, community-focused pilates studio. We
-                focus on you, for you.
+                {t('home.hero.description')}
               </p>
               <div>
                 <Link to="/packages">
-                  <StandardButton text="JOIN THE MOVEMENT" />
+                  <StandardButton text={t('home.hero.cta')} />
                 </Link>
               </div>
             </div>
@@ -76,15 +78,10 @@ export default function HomePage() {
                   >
                     {/* Right 50% text content */}
                     <Card.Title className="display-6 fw-bold">
-                      Welcome to MOVE!
+                      {t('home.about.title')}
                     </Card.Title>
                     <Card.Text>
-                      A safe space where every body is free to feel good through
-                      Pilates. At MOVE, it is a community of like-minded
-                      individuals who love staying active, our friendly and
-                      encouraging atmosphere will make you feel right at home.
-                      We believe you will feel seen within our studio, and we
-                      cannot wait for you to come MOVE with us.
+                      {t('home.about.description')}
                     </Card.Text>
                   </div>
                 </Card.Body>
@@ -107,13 +104,13 @@ export default function HomePage() {
             }}
           >
             <div style={{ marginTop: "10%" }}>
-              <h2 className="my-2">Inhale, Ready? Exhale, Let&apos;s MOVE.</h2>
+              <h2 className="my-2">{t('home.cta.title')}</h2>
               <Link to="/packages">
                 <button
                   className="btn btn-outline-light my-2"
                   style={{ borderRadius: "30px", padding: "15px" }}
                 >
-                  Let&apos;s MOVE together
+                  {t('home.cta.button')}
                 </button>
               </Link>
             </div>
@@ -128,8 +125,8 @@ export default function HomePage() {
             }}
           >
             <div className="h-auto">
-              <h2 className="p-2">JOIN THE MOVE PILATES CLUB</h2>
-              <p className="p-2">We like to MOVE it MOVE it.</p>
+              <h2 className="p-2">JOIN THERAPILATES</h2>
+              <p className="p-2">We focus on healing and strengthening.</p>
               <p className="p-2">
                 &quot;Change happens through movement and movement heals.&quot;
                 - Joseph Pilates
@@ -137,7 +134,7 @@ export default function HomePage() {
               <div className="text-center">
                 <Link to="/classes">
                   <StandardButton
-                    text="See all classes"
+                    text={t('classes.bookNow')}
                     styleClass="mt-3 mx-4 p-4"
                   />
                 </Link>
@@ -161,9 +158,9 @@ export default function HomePage() {
             className="mb-4 location"
           >
             <div>
-              <h2>Location</h2>
+              <h2>{t('location.title')}</h2>
               <p>
-                4, Persiaran Zaaba, Taman Tun Dr Ismail, 60000 Kuala Lumpur.
+                {t('location.studio.address')}
               </p>
               <img
                 src={Image3}
@@ -177,7 +174,7 @@ export default function HomePage() {
               />
             </div>
             <div className="overlap">
-              <h6>MOOV Pilates Studio</h6>
+              <h6>{t('location.studio.title')}</h6>
               <img
                 src={ImageLounge}
                 alt="A group of chairs sitting next to each other in a room
@@ -191,11 +188,10 @@ export default function HomePage() {
                 }}
               />
               <p>
-                <IoLocationOutline /> 4, Persiaran Zaaba, Taman Tun Dr Ismail,
-                60000 Kuala Lumpur.
+                <IoLocationOutline /> {t('location.studio.address')}
               </p>
               <p>
-                <IoCallOutline /> +60111234567
+                <IoCallOutline /> +216 71 123 456
               </p>
 
               <StandardButton

@@ -3,18 +3,19 @@ import CheckoutPage from "./CheckoutComponent";
 export default function ClassesBundleCheckout() {
   return (
     <CheckoutPage
-      packageTitle="25 Classes"
+      packageTitle="25 Sessions"
       classesEligibility={
         <ul className="d-flex flex-row justify-content-around">
-          <li>MOVE Chair (All-Levels)</li>
-          <li>MOVE Control</li>
-          <li>MOVE Jump (INT)</li>
-          <li>MOVE Burn (INT)</li>
+          <li>Physiotherapy Session</li>
+          <li>Therapeutic Pilates</li>
+          <li>Prenatal Pilates</li>
+          <li>Postnatal Pilates</li>
+          <li>Rehabilitation Pilates</li>
         </ul>
       }
       packageConditions={
         <ul>
-          <li>25 Reformer group classes</li>
+          <li>25 therapeutic sessions</li>
           <li>
             <b>shareable with 1 friend</b>
           </li>

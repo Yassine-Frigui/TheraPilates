@@ -104,14 +104,13 @@ export default function LocationStudioOne() {
             paddingLeft: "2rem",
           }}
         >
-          <h3 className="py-2">MOVE Pilates Studio</h3>
-          <p>Welcome to your new MOVEment home</p>
+          <h3 className="py-2">TheraPilates Studio</h3>
+          <p>Welcome to your new healing home</p>
           <p>
-            <IoLocationOutline /> 4, Persiaran Zaaba, Taman Tun Dr Ismail, 60000
-            Kuala Lumpur.
+            <IoLocationOutline /> 123 Avenue Habib Bourguiba, Tunis, Tunisia
           </p>
           <p>
-            <IoCallOutline /> +60111234567
+            <IoCallOutline /> +216 71 123 456
           </p>
           {/* GMaps Get Directions Button */}
           <div onClick={() => handleDirection()}>

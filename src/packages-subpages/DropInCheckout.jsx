@@ -3,13 +3,14 @@ import CheckoutPage from "./CheckoutComponent";
 export default function DropInCheckout() {
   return (
     <CheckoutPage
-      packageTitle="Drop-in: One Class"
+      packageTitle="Drop-in: One Session"
       classesEligibility={
         <ul className="d-flex flex-row justify-content-around">
-          <li>MOVE Chair (All-Levels)</li>
-          <li>MOVE Control</li>
-          <li>MOVE Jump (INT)</li>
-          <li>MOVE Burn (INT)</li>
+          <li>Physiotherapy Session</li>
+          <li>Therapeutic Pilates</li>
+          <li>Prenatal Pilates</li>
+          <li>Postnatal Pilates</li>
+          <li>Rehabilitation Pilates</li>
         </ul>
       }
       packageConditions={

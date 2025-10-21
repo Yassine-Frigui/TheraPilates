@@ -88,22 +88,21 @@ export default function ContactPage() {
                         <td className="p-2">
                           <IoMailOutline />
                         </td>
-                        <td>hello@movebiz.co</td>
+                        <td>hello@therapilates.co</td>
                       </tr>
                       <tr>
                         <td className="p-2">
                           <IoLocationOutline />
                         </td>
                         <td>
-                          4, Persiaran Zaaba, Taman Tun Dr Ismail, 60000 Kuala
-                          Lumpur.
+                          123 Avenue Habib Bourguiba, Tunis, Tunisia.
                         </td>
                       </tr>
                       <tr>
                         <td className="p-2">
                           <IoCallOutline />
                         </td>
-                        <td>+60111234567</td>
+                        <td>+216 71 123 456</td>
                       </tr>
                     </tbody>
                   </table>
@@ -147,7 +146,7 @@ export default function ContactPage() {
                             borderRadius: "5px 0 0 5px",
                           }}
                         >
-                          <option defaultValue="+60">+60 (Malaysia)</option>
+                          <option defaultValue="+216">+216 (Tunisia)</option>
                           <option value="+62">+62 (Indonesia)</option>
                           <option value="+63">+63 (Philippines)</option>
                           <option value="+65">+65 (Singapore)</option>

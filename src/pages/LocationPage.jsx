@@ -52,15 +52,14 @@ export default function LocationPage() {
                 }}
               >
                 <Card.Title className="display-6 mt-2">
-                  MOVE Pilates Studio
+                  TheraPilates Studio
                 </Card.Title>
                 <Card.Text>
                   <p>
-                    <IoLocationOutline /> 4, Persiaran Zaaba, Taman Tun Dr
-                    Ismail, 60000 Kuala Lumpur.
+                    <IoLocationOutline /> 123 Avenue Habib Bourguiba, Tunis, Tunisia.
                   </p>
                   <p>
-                    <IoCallOutline /> +6011-1234567
+                    <IoCallOutline /> +216 71 123 456
                   </p>
                   <div onClick={handleNavigation}>
                     <StandardButton

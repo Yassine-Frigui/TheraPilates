@@ -3,11 +3,11 @@ import CheckoutPage from "./CheckoutComponent";
 export default function IntroCheckout() {
   return (
     <CheckoutPage
-      packageTitle="Starter Pack: 3 Classes"
+      packageTitle="Starter Pack: 3 Sessions"
       classesEligibility={
         <ul className="d-flex flex-row justify-content-around">
-          <li>MOVE Chair (All-Levels)</li>
-          <li>MOVE Control</li>
+          <li>Physiotherapy Session</li>
+          <li>Therapeutic Pilates</li>
         </ul>
       }
       packageConditions={

@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Home",
+    "classes": "Classes",
+    "packages": "Packages",
+    "contact": "Contact",
+    "location": "Location",
+    "policies": "Policies",
+    "timetable": "Timetable"
+  },
+  "home": {
+    "hero": {
+      "title": "Therapy Through Movement",
+      "subtitle": "Physiotherapy & Therapeutic Pilates",
+      "description": "Discover a holistic approach to health and wellness through our personalized physiotherapy and therapeutic pilates sessions.",
+      "cta": "Book a Session"
+    },
+    "services": {
+      "title": "Our Services",
+      "physiotherapy": {
+        "title": "Physiotherapy",
+        "description": "Personalized assessment and treatment to relieve pain and improve mobility."
+      },
+      "pilates": {
+        "title": "Therapeutic Pilates",
+        "description": "Targeted exercises to strengthen deep muscles and improve posture."
+      },
+      "rehabilitation": {
+        "title": "Rehabilitation",
+        "description": "Specialized programs for recovery after injury or surgery."
+      }
+    },
+    "about": {
+      "title": "About TheraPilates",
+      "description": "Our specialized studio in physiotherapy and therapeutic pilates offers personalized care in a welcoming and professional environment."
+    },
+    "cta": {
+      "title": "Ready to Start Your Wellness Journey?",
+      "button": "View Our Packages"
+    }
+  },
+  "classes": {
+    "title": "Our Classes",
+    "subtitle": "Discover our different physiotherapy and therapeutic pilates sessions",
+    "filter": {
+      "all": "All",
+      "physiotherapy": "Physiotherapy",
+      "pilates": "Pilates",
+      "rehabilitation": "Rehabilitation"
+    },
+    "bookNow": "Book Now"
+  },
+  "packages": {
+    "title": "Our Packages",
+    "subtitle": "Choose the package that best suits your needs",
+    "packages": {
+      "intro": {
+        "title": "Intro Session",
+        "price": "TND 35",
+        "sessions": "1 session",
+        "description": "Discover our methods with a personalized introductory session."
+      },
+      "fourClasses": {
+        "title": "4 Classes",
+        "price": "TND 120",
+        "sessions": "4 sessions",
+        "description": "Perfect for starting your rehabilitation program."
+      },
+      "twentyFiveClasses": {
+        "title": "25 Classes",
+        "price": "TND 650",
+        "sessions": "25 sessions",
+        "description": "Complete package for regular therapeutic follow-up."
+      },
+      "dropIn": {
+        "title": "Drop-in",
+        "price": "TND 35",
+        "sessions": "Individual session",
+        "description": "Pay-per-session for maximum flexibility."
+      }
+    },
+    "checkout": "Checkout"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to answer your questions",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "send": "Send"
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "123 Avenue Habib Bourguiba, Tunis, Tunisia",
+      "phone": "+216 71 123 456",
+      "email": "hello@therapilates.co",
+      "hours": "Monday - Friday: 8AM-8PM\nSaturday - Sunday: 9AM-6PM"
+    }
+  },
+  "location": {
+    "title": "Our Location",
+    "subtitle": "Come visit us at our studio in Tunis",
+    "studio": {
+      "title": "TheraPilates Studio",
+      "address": "123 Avenue Habib Bourguiba, Tunis, Tunisia",
+      "description": "Located in the heart of Tunis, our modern studio offers a calm and professional environment for your physiotherapy and therapeutic pilates sessions."
+    }
+  },
+  "timetable": {
+    "title": "Class Schedule",
+    "subtitle": "Check our weekly schedule",
+    "filter": {
+      "all": "All classes",
+      "physiotherapy": "Physiotherapy",
+      "pilates": "Pilates",
+      "rehabilitation": "Rehabilitation"
+    },
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "book": "Book"
+  },
+  "footer": {
+    "description": "Your partner in physiotherapy and therapeutic pilates in Tunis.",
+    "links": {
+      "services": "Services",
+      "contact": "Contact",
+      "policies": "Policies",
+      "location": "Location"
+    },
+    "copyright": "© 2025 TheraPilates. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Operation successful",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "details": "Details",
+    "actions": "Actions"
+  }
+}

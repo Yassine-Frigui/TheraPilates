@@ -18,10 +18,17 @@ import DropInCheckout from "./packages-subpages/DropInCheckout";
 import FourClassesCheckout from "./packages-subpages/FourClassesCheckout";
 import ClassesBundleCheckout from "./packages-subpages/25ClassesCheckout";
 import TimetablePage from "./pages/TimetablePage";
+import AdminLayout from "./components/admin/AdminLayout";
+import AdminDashboardPage from "./pages/admin/AdminDashboardPage";
+import AdminBookingsPage from "./pages/admin/AdminBookingsPage";
+import AdminClientsPage from "./pages/admin/AdminClientsPage";
+import AdminServicesPage from "./pages/admin/AdminServicesPage";
+import AdminSettingsPage from "./pages/admin/AdminSettingsPage";
 
 export default function App() {
   return (
     <BrowserRouter>
+      {/* Client-side routes with navbar and footer */}
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
@@ -57,6 +64,17 @@ export default function App() {
         <Route path="/studio-policies" element={<StudioPolicies />}></Route>
       </Routes>
       <HomeFooter />
+
+      {/* Admin routes - completely independent */}
+      <Routes>
+        <Route path="/admin" element={<AdminLayout />}>
+          <Route index element={<AdminDashboardPage />} />
+          <Route path="bookings" element={<AdminBookingsPage />} />
+          <Route path="clients" element={<AdminClientsPage />} />
+          <Route path="services" element={<AdminServicesPage />} />
+          <Route path="settings" element={<AdminSettingsPage />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }

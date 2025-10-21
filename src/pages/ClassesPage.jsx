@@ -11,49 +11,50 @@ export default function ClassesPage() {
 
   const cardData = [
     {
-      classTitle: "MOVE control",
+      classTitle: "Physiotherapy Session",
       classImage: Image1,
       imageTitle: "Photo by bruce mars on Unsplash",
       classDuration: "50 mins",
       classLevel: "Beginner",
       classDescr: `
-          HINT: FIRST TIME? START HERE. Reformer Control is a class suitable for all levels, including beginners. It focuses on full-body exercises that help improve fundamental movement patterns.
-          This beginner-friendly full body class will train you in muscle control, balance, coordination.
+          FIRST TIME? START HERE. Our Physiotherapy Session is suitable for all levels, including beginners. It focuses on assessment and treatment to improve movement and function.
+          This session will help you with muscle control, balance, and coordination through therapeutic exercises.
         `,
       classLink: "/movecontrol",
     },
     {
-      classTitle: "MOVE Burn (INT)",
+      classTitle: "Therapeutic Pilates",
       classImage: Image2,
       imageTitle: "Photo by bruce mars on Unsplash",
       classDuration: "50 mins",
-      classLevel: "Intermediate",
+      classLevel: "Beginner",
       classDescr: `
-          FOR THOSE WHO LIKE A CHALLENGE (INTERMEDIATE)
-          Get ready to level up your pilates with more intensity, burn, and endurance with mixture of props to test and challenge your strength, balance and co-ordination. This class keeps the intensity high, so prepare to work up a sweat and test your endurance.
+          Experience the healing power of Pilates. Therapeutic Pilates combines traditional Pilates with physiotherapy principles to address specific health needs.
+          Improve your strength, flexibility, and posture in a supportive environment.
         `,
       classLink: "/moveburn",
     },
     {
-      classTitle: "MOVE Jump (INT)",
+      classTitle: "Prenatal Pilates",
       classImage: Image3,
       imageTitle: "Photo by LOGAN WEAVER | @LGNWVR on Unsplash",
       classDuration: "50 mins",
-      classLevel: "Intermediate",
+      classLevel: "Beginner",
       classDescr: `
-          Dive into high-energy fitness with our Pilates Jumpboard class! MOOV Jump is one of our intermediate Reformer Pilates classes utilising the Jumping Board which requires you to jump while you are laying down. 
-          This low-impact, full-body session combines strength, cardio, and core stability for a fun and effective exercise.
+          Prepare for childbirth with our specialized Prenatal Pilates class. Designed for expectant mothers, this session focuses on strengthening the core, improving posture, and promoting relaxation.
+          Safe and effective exercises to support you through pregnancy.
         `,
       classLink: "/movejump",
     },
     {
-      classTitle: "MOVE Chair (All Levels)",
+      classTitle: "Postnatal Pilates",
       classImage: Image4,
       imageTitle: "Photo by Andrew Valdivia on Unsplash",
       classDuration: "50 mins",
       classLevel: "Beginner",
       classDescr: `
-          Ready for Pilates Chair? An effective workout that feels fresh and exciting — perfect if you need a little extra motivation to get moving. 
+          Recover and strengthen after childbirth with Postnatal Pilates. This class helps restore core strength, improve pelvic floor function, and regain confidence in your body.
+          Gentle yet effective exercises tailored for new mothers.
         `,
       classLink: "/movechair",
     },
@@ -87,7 +88,7 @@ export default function ClassesPage() {
           }}
         >
           <Row sm={2}>
-            <h2 className="mb-4">Classes</h2>
+            <h2 className="mb-4">Sessions</h2>
 
             {/* Filter controls */}
             <div>
@@ -107,7 +108,7 @@ export default function ClassesPage() {
                 }}
               >
                 <option value="all" selected>
-                  All Classes
+                  All Sessions
                 </option>
                 <option value="Beginner">Beginner</option>
                 <option value="Intermediate">Intermediate</option>
@@ -117,7 +118,7 @@ export default function ClassesPage() {
 
             {/* Render filtered cards */}
             {filteredCards.length === 0 ? (
-              <p className="mt-4">No classes found</p>
+              <p className="mt-4">No sessions found</p>
             ) : (
               filteredCards.map((card, index) => (
                 <Col key={index} sm={4} className="mt-4">

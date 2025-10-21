@@ -71,9 +71,8 @@ body {
   border: none !important; 
 }
 
-/* Payment page payment method radio button styling */
 input[type="radio"]:checked + label::before {
-  background-color: var(--primary-color); /
+  background-color: var(--primary-color);
 }
 
   
