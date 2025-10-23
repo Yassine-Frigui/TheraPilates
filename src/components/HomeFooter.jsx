@@ -62,7 +62,7 @@ export default function HomeFooter() {
           <hr className="border-top border-3 border-dark"></hr>
           <div className="d-flex justify-content-between">
             <span className="p-2 mb-2">Copyright &copy; 2024 MOVE Pilates</span>
-            <span className="p-2 mb-2">Malaysia (GMT +08:00)</span>
+            <span className="p-2 mb-2">@sstherapilates</span>
           </div>
         </div>
       </Row>

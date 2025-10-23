@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Container, Row, Col, Tabs, Tab } from "react-bootstrap";
 import PackagesCard from "../components/PackagesCard";
-import packageData from "../PackageData";
+import usePackageData from "../PackageData";
 
 export default function PackagesPage() {
   const [activeTab, setActiveTab] = useState("all");
+  const packageData = usePackageData();
 
   const handleTabSelect = (tab) => {
     setActiveTab(tab);
@@ -36,7 +37,8 @@ export default function PackagesPage() {
                 <Col key={index} sm={6} md={3} lg={3} className="mt-4">
                   <PackagesCard
                     categoryTitle={item.categoryTitle}
-                    packageTitle={item.packagePrice}
+                    packageTitle={item.packageTitle}
+                    packagePrice={item.packagePrice}
                     paymentLink={item.paymentLink}
                     paymentSched={item.paymentSched}
                     credits={item.credits}

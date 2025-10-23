@@ -55,28 +55,40 @@
     "subtitle": "Choisissez le forfait qui convient le mieux à vos besoins",
     "packages": {
       "intro": {
-        "title": "Séance d'Introduction",
-        "price": "TND 35",
-        "sessions": "1 séance",
-        "description": "Découvrez nos méthodes avec une séance d'introduction personnalisée."
-      },
-      "fourClasses": {
-        "title": "4 Classes",
-        "price": "TND 120",
-        "sessions": "4 séances",
-        "description": "Idéal pour commencer votre programme de rééducation."
-      },
-      "twentyFiveClasses": {
-        "title": "25 Classes",
-        "price": "TND 650",
-        "sessions": "25 séances",
-        "description": "Forfait complet pour un suivi thérapeutique régulier."
+        "categoryTitle": "FORFAIT INTRO - NOUVEAUX CLIENTS",
+        "packageTitle": "Forfait Starter: 3 Séances",
+        "packagePrice": "TND 180",
+        "paymentSched": "Paiement unique",
+        "credits": "3 crédits pour séances",
+        "access": "Accès à tous les emplacements",
+        "validity": "Valide pendant 1 mois à partir de la date de première réservation"
       },
       "dropIn": {
-        "title": "Drop-in",
-        "price": "TND 35",
-        "sessions": "Séance individuelle",
-        "description": "Paiement à la séance pour une flexibilité maximale."
+        "categoryTitle": "FORFAIT SÉANCE",
+        "packageTitle": "Drop-in: Une Séance",
+        "packagePrice": "TND 85",
+        "paymentSched": "Paiement unique",
+        "credits": "1 crédit pour séances",
+        "access": "Accès à tous les emplacements",
+        "validity": "Valide pendant 1 mois à partir de la date de première réservation"
+      },
+      "fourClasses": {
+        "categoryTitle": "FORFAIT SÉANCE",
+        "packageTitle": "4 Séances",
+        "packagePrice": "TND 310",
+        "paymentSched": "Paiement unique",
+        "credits": "4 crédits pour séances",
+        "access": "Accès à tous les emplacements",
+        "validity": "Valide pendant 1 mois à partir de la date de première réservation"
+      },
+      "twentyFiveClasses": {
+        "categoryTitle": "PARTAGEABLE POUR 2",
+        "packageTitle": "25 Séances",
+        "packagePrice": "TND 1,750",
+        "paymentSched": "Paiement unique",
+        "credits": "25 crédits pour séances",
+        "access": "Accès à tous les emplacements",
+        "validity": "Valide pendant 6 mois à partir de la date de première réservation"
       }
     },
     "checkout": "Commander"

@@ -1,48 +1,54 @@
-const packageData = [
-  {
-    category: "intro",
-    categoryTitle: "INTRO PACK - NEW CLIENTS",
-    packageTitle: "Starter Pack: 3 Sessions",
-    packagePrice: "TND 180",
-    paymentSched: "One time payment",
-    credits: "3 credits for sessions",
-    access: "All location access",
-    validity: "Valid for 1 month from the date of first booking",
-    paymentLink: "/checkout-intro",
-  },
-  {
-    category: "class",
-    categoryTitle: "SESSION PACK",
-    packageTitle: "Drop-in: One Session",
-    packagePrice: "TND 85",
-    paymentSched: "One time payment",
-    credits: "1 credit for sessions",
-    access: "All location access",
-    validity: "Valid for 1 month from the date of first booking",
-    paymentLink: "/checkout-dropin",
-  },
-  {
-    category: "class",
-    categoryTitle: "SESSION PACK",
-    packageTitle: "4 Sessions",
-    packagePrice: "TND 310",
-    paymentSched: "One time payment",
-    credits: "4 credits for sessions",
-    access: "All location access",
-    validity: "Valid for 1 month from the date of first booking",
-    paymentLink: "/checkout-fourclasses",
-  },
-  {
-    category: "share",
-    categoryTitle: "SHAREABLE FOR 2",
-    packageTitle: "25 Sessions",
-    packagePrice: "TND 1,750",
-    paymentSched: "One time payment",
-    credits: "25 credits for sessions",
-    access: "All location access",
-    validity: "Valid for 6 months from the date of first booking",
-    paymentLink: "/checkout-25classes",
-  },
-];
+import { useTranslation } from "react-i18next";
 
-export default packageData;
+const usePackageData = () => {
+  const { t } = useTranslation();
+
+  return [
+    {
+      category: "intro",
+      categoryTitle: t("packages.packages.intro.categoryTitle"),
+      packageTitle: t("packages.packages.intro.packageTitle"),
+      packagePrice: t("packages.packages.intro.packagePrice"),
+      paymentSched: t("packages.packages.intro.paymentSched"),
+      credits: t("packages.packages.intro.credits"),
+      access: t("packages.packages.intro.access"),
+      validity: t("packages.packages.intro.validity"),
+      paymentLink: "/checkout-intro",
+    },
+    {
+      category: "class",
+      categoryTitle: t("packages.packages.dropIn.categoryTitle"),
+      packageTitle: t("packages.packages.dropIn.packageTitle"),
+      packagePrice: t("packages.packages.dropIn.packagePrice"),
+      paymentSched: t("packages.packages.dropIn.paymentSched"),
+      credits: t("packages.packages.dropIn.credits"),
+      access: t("packages.packages.dropIn.access"),
+      validity: t("packages.packages.dropIn.validity"),
+      paymentLink: "/checkout-dropin",
+    },
+    {
+      category: "class",
+      categoryTitle: t("packages.packages.fourClasses.categoryTitle"),
+      packageTitle: t("packages.packages.fourClasses.packageTitle"),
+      packagePrice: t("packages.packages.fourClasses.packagePrice"),
+      paymentSched: t("packages.packages.fourClasses.paymentSched"),
+      credits: t("packages.packages.fourClasses.credits"),
+      access: t("packages.packages.fourClasses.access"),
+      validity: t("packages.packages.fourClasses.validity"),
+      paymentLink: "/checkout-fourclasses",
+    },
+    {
+      category: "share",
+      categoryTitle: t("packages.packages.twentyFiveClasses.categoryTitle"),
+      packageTitle: t("packages.packages.twentyFiveClasses.packageTitle"),
+      packagePrice: t("packages.packages.twentyFiveClasses.packagePrice"),
+      paymentSched: t("packages.packages.twentyFiveClasses.paymentSched"),
+      credits: t("packages.packages.twentyFiveClasses.credits"),
+      access: t("packages.packages.twentyFiveClasses.access"),
+      validity: t("packages.packages.twentyFiveClasses.validity"),
+      paymentLink: "/checkout-25classes",
+    },
+  ];
+};
+
+export default usePackageData;
