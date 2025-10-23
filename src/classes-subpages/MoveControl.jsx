@@ -3,33 +3,28 @@ import MoveClassComponent from "./MoveClassComponent";
 export default function MoveControl() {
   return (
     <MoveClassComponent
-      className="Move Control"
+      className="Contrôle Réformeur"
       classDuration="50 mins"
-      classDifficulty="Beginner"
+      classDifficulty="Débutant"
       classImage="/assets/bruce-mars-gJtDg6WfMlQ-unsplash.jpg"
       classDescription={
         <p>
           <i>
-            <b>HINT: FIRST TIME? START HERE.</b>
+            <b>CONSEIL : PREMIÈRE FOIS ? COMMENCEZ ICI.</b>
           </i>
-          Reformer Control is a class suitable for all levels, including
-          beginners. It focuses on full-body exercises that help improve
-          fundamental movement patterns.
+          Le Contrôle Réformeur est une classe adaptée à tous les niveaux, y compris les débutants. Elle se concentre sur des exercices complets du corps qui aident à améliorer les schémas de mouvement fondamentaux.
           <br />
           <br />
-          This beginner-friendly full body class will train you in muscle
-          control, balance, coordination.
+          Cette classe complète pour débutants vous entraînera au contrôle musculaire, à l'équilibre, à la coordination.
           <br />
           <br />
-          The class offers progressions and modifications to tailor to your
-          fitness level, ensuring a challenging and fulfilling workout that will
-          leave you feeling energized.
+          La classe offre des progressions et des modifications pour s'adapter à votre niveau de forme physique, assurant un entraînement stimulant et enrichissant qui vous laissera énergisé.
           <br />
           <br />
-          Suitable for:
+          Adapté pour :
           <ul>
-            <li>First-Timers / Beginners</li>
-            <li>All-levels friendly</li>
+            <li>Première fois / Débutants</li>
+            <li>Convivial pour tous niveaux</li>
           </ul>
         </p>
       }

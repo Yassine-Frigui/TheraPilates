@@ -3,29 +3,24 @@ import MoveClassComponent from "./MoveClassComponent";
 export default function MoveBurn() {
   return (
     <MoveClassComponent
-      className="Move Burn"
+      className="Brûlure Réformeur"
       classDuration="50 mins"
-      classDifficulty="Intermediate"
+      classDifficulty="Intermédiaire"
       classImage="/assets/bruce-mars-pFyKRmDiWEA-unsplash.jpg"
       classDescription={
         <>
           <p>
-            <b>FOR THOSE WHO LIKE A CHALLENGE (INTERMEDIATE)</b>
+            <b>POUR CEUX QUI AIMENT LE DÉFI (INTERMÉDIAIRE)</b>
             <br />
             <br />
-            Get ready to level up your pilates with more intensity, burn, and
-            endurance with a mixture of props to test and challenge your
-            strength, balance, and coordination. This class keeps the intensity
-            high, so prepare to work up a sweat and test your endurance.
+            Préparez-vous à monter d'un niveau votre pilates avec plus d'intensité, de brûlure et d'endurance avec un mélange d'accessoires pour tester et défier votre force, votre équilibre et votre coordination. Cette classe maintient l'intensité élevée, alors préparez-vous à transpirer et à tester votre endurance.
             <br />
             <br />
-            Recommended to master the basics of Reformer Control before
-            proceeding to this class.
+            Recommandé de maîtriser les bases du Contrôle Réformeur avant de passer à cette classe.
             <br />
             <br />
             <b>
-              Note: Class booking available for Drop-In, or 10 classes & above
-              package holders only.
+              Note : Réservation de classe disponible pour Drop-In, ou détenteurs de forfaits de 10 classes et plus seulement.
             </b>
             <br />
             <br />

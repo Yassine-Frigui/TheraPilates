@@ -11,50 +11,50 @@ export default function ClassesPage() {
 
   const cardData = [
     {
-      classTitle: "Physiotherapy Session",
+      classTitle: "Séance de Physiothérapie",
       classImage: Image1,
-      imageTitle: "Photo by bruce mars on Unsplash",
+      imageTitle: "Photo par bruce mars sur Unsplash",
       classDuration: "50 mins",
-      classLevel: "Beginner",
+      classLevel: "Débutant",
       classDescr: `
-          FIRST TIME? START HERE. Our Physiotherapy Session is suitable for all levels, including beginners. It focuses on assessment and treatment to improve movement and function.
-          This session will help you with muscle control, balance, and coordination through therapeutic exercises.
+          PREMIÈRE FOIS ? COMMENCEZ ICI. Notre Séance de Physiothérapie convient à tous les niveaux, y compris les débutants. Elle se concentre sur l'évaluation et le traitement pour améliorer le mouvement et la fonction.
+          Cette séance vous aidera avec le contrôle musculaire, l'équilibre et la coordination grâce à des exercices thérapeutiques.
         `,
       classLink: "/movecontrol",
     },
     {
-      classTitle: "Therapeutic Pilates",
+      classTitle: "Pilates Thérapeutique",
       classImage: Image2,
-      imageTitle: "Photo by bruce mars on Unsplash",
+      imageTitle: "Photo par bruce mars sur Unsplash",
       classDuration: "50 mins",
-      classLevel: "Beginner",
+      classLevel: "Débutant",
       classDescr: `
-          Experience the healing power of Pilates. Therapeutic Pilates combines traditional Pilates with physiotherapy principles to address specific health needs.
-          Improve your strength, flexibility, and posture in a supportive environment.
+          Découvrez le pouvoir guérisseur du Pilates. Le Pilates Thérapeutique combine le Pilates traditionnel avec les principes de physiothérapie pour répondre à des besoins de santé spécifiques.
+          Améliorez votre force, votre flexibilité et votre posture dans un environnement favorable.
         `,
       classLink: "/moveburn",
     },
     {
-      classTitle: "Prenatal Pilates",
+      classTitle: "Pilates Prénatal",
       classImage: Image3,
-      imageTitle: "Photo by LOGAN WEAVER | @LGNWVR on Unsplash",
+      imageTitle: "Photo par LOGAN WEAVER | @LGNWVR sur Unsplash",
       classDuration: "50 mins",
-      classLevel: "Beginner",
+      classLevel: "Débutant",
       classDescr: `
-          Prepare for childbirth with our specialized Prenatal Pilates class. Designed for expectant mothers, this session focuses on strengthening the core, improving posture, and promoting relaxation.
-          Safe and effective exercises to support you through pregnancy.
+          Préparez-vous à l'accouchement avec notre classe spécialisée de Pilates Prénatal. Conçue pour les futures mamans, cette séance se concentre sur le renforcement du noyau, l'amélioration de la posture et la promotion de la relaxation.
+          Exercices sûrs et efficaces pour vous soutenir pendant la grossesse.
         `,
       classLink: "/movejump",
     },
     {
-      classTitle: "Postnatal Pilates",
+      classTitle: "Pilates Postnatal",
       classImage: Image4,
-      imageTitle: "Photo by Andrew Valdivia on Unsplash",
+      imageTitle: "Photo par Andrew Valdivia sur Unsplash",
       classDuration: "50 mins",
-      classLevel: "Beginner",
+      classLevel: "Débutant",
       classDescr: `
-          Recover and strengthen after childbirth with Postnatal Pilates. This class helps restore core strength, improve pelvic floor function, and regain confidence in your body.
-          Gentle yet effective exercises tailored for new mothers.
+          Récupérez et renforcez-vous après l'accouchement avec le Pilates Postnatal. Cette classe aide à restaurer la force du noyau, à améliorer la fonction du plancher pelvien et à retrouver confiance en votre corps.
+          Exercices doux mais efficaces adaptés aux nouvelles mamans.
         `,
       classLink: "/movechair",
     },
@@ -88,7 +88,7 @@ export default function ClassesPage() {
           }}
         >
           <Row sm={2}>
-            <h2 className="mb-4">Sessions</h2>
+            <h2 className="mb-4">Séances</h2>
 
             {/* Filter controls */}
             <div>
@@ -108,17 +108,17 @@ export default function ClassesPage() {
                 }}
               >
                 <option value="all" selected>
-                  All Sessions
+                  Toutes les Séances
                 </option>
-                <option value="Beginner">Beginner</option>
-                <option value="Intermediate">Intermediate</option>
-                <option value="Advanced">Advanced</option>
+                <option value="Beginner">Débutant</option>
+                <option value="Intermediate">Intermédiaire</option>
+                <option value="Advanced">Avancé</option>
               </select>
             </div>
 
             {/* Render filtered cards */}
             {filteredCards.length === 0 ? (
-              <p className="mt-4">No sessions found</p>
+              <p className="mt-4">Aucune séance trouvée</p>
             ) : (
               filteredCards.map((card, index) => (
                 <Col key={index} sm={4} className="mt-4">
