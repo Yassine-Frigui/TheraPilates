@@ -24,6 +24,7 @@ import AdminBookingsPage from "./pages/admin/AdminBookingsPage";
 import AdminClientsPage from "./pages/admin/AdminClientsPage";
 import AdminServicesPage from "./pages/admin/AdminServicesPage";
 import AdminSettingsPage from "./pages/admin/AdminSettingsPage";
+import AdminLogin from "./pages/admin/AdminLogin";
 
 export default function App() {
   return (
@@ -62,6 +63,7 @@ export default function App() {
         <Route path="/move-studio-1" element={<LocationStudioOne />}></Route>
         <Route path="/contact" element={<ContactPage />}></Route>
         <Route path="/studio-policies" element={<StudioPolicies />}></Route>
+        <Route path="/admin-login" element={<AdminLogin />}></Route>
       </Routes>
       <HomeFooter />
 

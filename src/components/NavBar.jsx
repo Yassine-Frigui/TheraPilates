@@ -20,6 +20,7 @@ export default function NavBar() {
     { text: t('nav.timetable'), url: "/timetable" },
     { text: t('nav.location'), url: "/location" },
     { text: t('nav.contact'), url: "/contact" },
+    { text: t('nav.login'), url: "/admin-login" },
   ];
 
   return (
