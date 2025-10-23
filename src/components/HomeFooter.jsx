@@ -61,7 +61,7 @@ export default function HomeFooter() {
           {/* Copyright */}
           <hr className="border-top border-3 border-dark"></hr>
           <div className="d-flex justify-content-between">
-            <span className="p-2 mb-2">Copyright &copy; 2024 MOVE Pilates</span>
+            <span className="p-2 mb-2">Copyright &copy; 2025 Thera Pilates</span>
             <span className="p-2 mb-2">@sstherapilates</span>
           </div>
         </div>

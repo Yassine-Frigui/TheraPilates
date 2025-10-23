@@ -73,7 +73,7 @@ export default function MoveClassComponent({
                 }}
               >
                 <option value="">Sélectionner l'emplacement</option>
-                <option value="move-studio-1">Studio Pilates MOVE</option>
+                <option value="move-studio-1">TheraPilates Studio</option>
               </select>
 
               <StandardButton text="Réserver Maintenant" classLink="/timetable" />
