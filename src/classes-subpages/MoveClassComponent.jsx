@@ -26,7 +26,7 @@ export default function MoveClassComponent({
                     color: "inherit",
                   }}
                 >
-                  Classes
+                  Cours
                 </a>
               </li>
               <li
@@ -51,7 +51,7 @@ export default function MoveClassComponent({
               </i>
               <span className="p-2">
                 {" "}
-                <b className="p-2">Duration</b>
+                <b className="p-2">Durée</b>
                 <p className="p-2">{classDuration}</p>
               </span>
               <i className="p-2">
@@ -59,7 +59,7 @@ export default function MoveClassComponent({
               </i>
               <span className="p-2">
                 {" "}
-                <b className="p-2">Difficulty Level</b>
+                <b className="p-2">Niveau de Difficulté</b>
                 <p className="p-2">{classDifficulty}</p>
               </span>
             </div>
@@ -72,11 +72,11 @@ export default function MoveClassComponent({
                   borderRadius: "5px",
                 }}
               >
-                <option value="">Select location</option>
-                <option value="move-studio-1">MOVE Pilates Studio</option>
+                <option value="">Sélectionner l'emplacement</option>
+                <option value="move-studio-1">Studio Pilates MOVE</option>
               </select>
 
-              <StandardButton text="Book Now" classLink="/timetable" />
+              <StandardButton text="Réserver Maintenant" classLink="/timetable" />
             </div>
           </Col>
           

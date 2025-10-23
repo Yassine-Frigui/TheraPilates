@@ -3,48 +3,40 @@ import MoveClassComponent from "./MoveClassComponent";
 export default function MoveJump() {
   return (
     <MoveClassComponent
-      className="Move Jump"
+      className="Saut Réformeur"
       classDuration="50 mins"
-      classDifficulty="Intermediate"
+      classDifficulty="Intermédiaire"
       classImage="/assets/logan-weaver-lgnwvr-amgv9YUg-MA-unsplash.jpg"
       classDescription={
         <p>
-          Dive into high-energy fitness with our Pilates Jumpboard class! MOVE
-          Jump is one of our intermediate Reformer Pilates classes utilising the
-          Jumping Board which requires you to jump while you are laying down.
+          Plongez dans le fitness à haute énergie avec notre classe de Pilates Jumpboard ! MOVE Jump est l'une de nos classes de Pilates Réformeur intermédiaire utilisant le Jumping Board qui vous oblige à sauter tout en étant allongé.
           <br />
           <br />
-          This low-impact, full-body session combines strength, cardio, and core
-          stability for a fun and effective exercise.
+          Cette séance complète à faible impact combine force, cardio et stabilité du noyau pour un exercice amusant et efficace.
           <br />
           <br />
-          As this is our intermediate class, you will need to attend at least 5
-          Reformer Pilates / MOVE Control classes before you can go for MOVE
-          Jump.{" "}
+          Comme il s'agit de notre classe intermédiaire, vous devrez assister à au moins 5 classes de Pilates Réformeur / MOVE Control avant de pouvoir passer à MOVE Jump.{" "}
           <b>
-            MOVE Jump is not recommended for someone who is nursing ankle, knee
-            or leg injuries.{" "}
+            MOVE Jump n'est pas recommandé pour quelqu'un qui soigne des blessures à la cheville, au genou ou à la jambe.{" "}
           </b>
           <br />
           <br />
-          Suitable for:
+          Convient pour :
           <ul>
             {" "}
             <li>
-              Intermediate/advanced clients. We suggest 10 control classes prior
-              to joining Burn/Jump.{" "}
+              Clients intermédiaires/avancés. Nous suggérons 10 classes de contrôle avant de rejoindre Burn/Jump.{" "}
             </li>{" "}
             <li>
-              Approach your friendly instructor for advice if feeling unsure if
-              the class suits you.{" "}
+              Approchez votre instructeur amical pour des conseils si vous vous sentez incertain si la classe vous convient.{" "}
             </li>
           </ul>
-          Not suitable for:
+          Ne convient pas pour :
           <ul>
-            <li>Ankle, Knee, Leg injuries Pre Natal and injured clients</li>
+            <li>Blessures à la cheville, au genou, à la jambe, pré-natal et clients blessés</li>
           </ul>
           <b className="text-center">
-            FOR THOSE WHO LIKE A CHALLENGE (INTERMEDIATE)
+            POUR CEUX QUI AIMENT LE DÉFI (INTERMÉDIAIRE)
           </b>
         </p>
       }
