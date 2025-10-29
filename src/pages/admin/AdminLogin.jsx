@@ -12,7 +12,7 @@ export default function AdminLogin() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === "admin" && password === "password123") {
+    if (username === "admin" && password === "admin") {
       // In a real app, you'd set authentication state here
       navigate("/admin");
     } else {
